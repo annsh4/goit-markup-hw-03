@@ -335,12 +335,16 @@ img {
 	color: var(--primary-white-color);
 }
 
+.portfolio-section {
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
+
 .portfolio-filter {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 96px;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .portfolio-filter .item:not(:last-child) {
@@ -372,7 +376,6 @@ img {
 .portfolio-flex {
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 120px;
 }
 
 .portfolio-flex .item {
